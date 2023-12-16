@@ -1,0 +1,136 @@
+header .header-top {
+  background-color: #222222;
+}
+header .header-bottom {
+  background-color: #E9EAE3;
+}
+header .header-bottom .nav-link {
+  font-weight: 600;
+  color: #222222;
+}
+header .header-bottom .xx {
+  gap: 10px;
+}
+header .header-bottom .xx a {
+  color: #222222 !important;
+}
+
+#sec-one {
+  background: url(/assets/img/slide-01.jpg);
+  padding: 80px 0;
+  background-size: cover;
+}
+#sec-one .container {
+  padding: 80px 0;
+}
+#sec-one .container .sec-one-content {
+  padding: 80px 0;
+}
+#sec-one .container .sec-one-content .sec-one-text {
+  padding: 80px 0;
+  padding: 5px;
+}
+#sec-one .container .sec-one-content .sec-one-text h4 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+#sec-one .container .sec-one-content .sec-one-text h2 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+#sec-one .container .sec-one-content .sec-one-text button {
+  background-color: #717fe0;
+  width: 161px;
+  height: 46px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 25px;
+}
+
+#sec-two {
+  padding: 80px 0;
+}
+#sec-two .sec-two-content .sec-two-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+#sec-two .sec-two-content .sec-two-cards .sec-two-card {
+  width: 369px;
+  border: 1px solid gray;
+  position: relative;
+}
+#sec-two .sec-two-content .sec-two-cards .sec-two-card .imgDiv img {
+  width: 100%;
+}
+#sec-two .sec-two-content .sec-two-cards .sec-two-card .textDiv {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#sec-products {
+  padding: 80px 0;
+}
+#sec-products .sec-products-content {
+  padding: 20px;
+}
+#sec-products .sec-products-content h2 {
+  margin-bottom: 40px;
+}
+#sec-products .sec-products-content .products-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+#sec-products .sec-products-content .products-card .cardBox {
+  width: 315px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+#sec-products .sec-products-content .products-card .cardBox img {
+  width: 100%;
+}
+#sec-products .sec-products-content .products-card .cardBox .textDivv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sec-products .sec-products-content .products-card .cardBox .textDivv button {
+  border: 0;
+  background-color: red;
+}
+#sec-products .sec-products-content .divBtn {
+  text-align: center;
+  margin-top: 80px;
+}
+#sec-products .sec-products-content .divBtn button {
+  border: 0;
+  outline: 0;
+  width: 179px;
+  height: 46px;
+  color: #000;
+  background-color: #E6E6E6;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #222222;
+  padding: 40px 0;
+}
+footer .container .footer-content ul {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+footer .container .footer-content ul li {
+  list-style: none;
+}
+
+.updateForm {
+  margin: 100px 0;
+}
